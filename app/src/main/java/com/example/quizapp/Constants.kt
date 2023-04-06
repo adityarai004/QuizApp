@@ -1,12 +1,17 @@
 package com.example.quizapp
 
 object Constants{
+
+    const val USER_NAME: String = "Username"
+    const val  TOTAL_QUESTIONS:String = "total_questions"
+    const val CORRECT_ANSWERS:String = "correct_answers"
+
     fun getQuestions():ArrayList<Questions>{
         val questionList=ArrayList<Questions>()
         val que1 = Questions(1,"Which on of the following is the Capital of India?",R.drawable.my_gradient,
         "Delhi","New Delhi","Jammu and Kashmir","Mumbai",2)
-        val que2 = Questions(1,"Which on of the following is the Capital of India?",R.drawable.my_gradient,
-            "Delhi","New Delhi","Jammu and Kashmir","Mumbai",2)
+        val que2 = Questions(1,"Which one of the following is the capital of Pakistan?",R.drawable.my_gradient,
+            "Karachi","Islamabad","Quetta","Lahore",1)
         val que3 = Questions(1,"Which on of the following is the Capital of India?",R.drawable.my_gradient,
         "Delhi","New Delhi","Jammu and Kashmir","Mumbai",2)
         val que4 = Questions(1,"Which on of the following is the Capital of India?",R.drawable.my_gradient,
